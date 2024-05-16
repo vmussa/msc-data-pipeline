@@ -1,4 +1,4 @@
-# Vítor Mussa Tavares Gomes's master research data pipeline
+# Vítor Mussa Tavares Gomes' master research data pipeline
 
 This repo contains the data pipeline for my master research project.
 It is made of two main components:
