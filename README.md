@@ -30,4 +30,26 @@ python concatenation.py
 ```
  
 # eda
-This is a work in progress. It contains Jupyter notebooks for exploratory data analysis with NLP.
+
+This folder contains Jupyter notebooks for exploratory data analysis with NLP.
+The `models.ipynb` notebook contains the code for training the models used in the research.
+The `vis.ipynb` notebook contains the code for the visualizations used in the research.
+To reproduce the results, you should download the trained models from the Zenodo repository and place them in the `models` folder. You can access the models [here](https://zenodo.org/records/14104692).
+
+The `eda/models` folder structure should be like this:
+```
+models
+--- lda_10t
+------ lda_10t.gensim
+------ lda_10t.gensim.expElogbeta.npy
+------ lda_10t.gensim.id2word
+------ lda_10t.gensim.state
+--- lda_100t
+------ lda_100t.gensim
+------ lda_100t.gensim.expElogbeta.npy
+------ lda_100t.gensim.id2word
+------ lda_100t.gensim.state
+--- corpus.mm
+--- corpus.mm.index
+--- dictionary.gensim
+```
