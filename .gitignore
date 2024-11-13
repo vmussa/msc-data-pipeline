@@ -229,3 +229,4 @@ pyrightconfig.json
 
 # custom ignore
 data/
+backup/
